@@ -27,7 +27,7 @@ class SecurityManager(context: Context) {
         return if (!savedKey.isNullOrBlank()) {
             savedKey
         } else {
-            BuildConfig.GROQ_API_KEY.takeIf { it.isNotBlank() }
+            BuildConfig.AI_API_KEY.takeIf { it.isNotBlank() }
         }
     }
 
@@ -40,7 +40,7 @@ class SecurityManager(context: Context) {
     }
 
     companion object {
-        private const val KEY_API_KEY = "groq_api_key"
+        private const val KEY_API_KEY = "ai_api_key"
         private const val KEY_SERVICE_ENABLED = "service_enabled"
     }
 }

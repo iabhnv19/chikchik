@@ -19,7 +19,7 @@ android {
             load(FileInputStream(localPropertiesFile))
         }
     }
-    val groqApiKey = localProperties.getProperty("GROQ_API_KEY") ?: ""
+    val aiApiKey = localProperties.getProperty("AI_API_KEY") ?: ""
 
     defaultConfig {
         applicationId = "com.example.chikchik"
@@ -28,7 +28,7 @@ android {
         versionCode = 1
         versionName = "1.0"
 
-        buildConfigField("String", "GROQ_API_KEY", "\"$groqApiKey\"")
+        buildConfigField("String", "AI_API_KEY", "\"$aiApiKey\"")
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 

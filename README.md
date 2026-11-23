@@ -25,7 +25,7 @@ To prepare and build this project locally or publish it to GitHub:
 Create a `local.properties` file in the project root directory and add your API key:
 ```properties
 sdk.dir=C\:\\Users\\YourUsername\\AppData\\Local\\Android\\Sdk
-GROQ_API_KEY=your_api_key_here
+AI_API_KEY=your_api_key_here
 ```
 *(You can use `local.properties.example` as a template).*
 

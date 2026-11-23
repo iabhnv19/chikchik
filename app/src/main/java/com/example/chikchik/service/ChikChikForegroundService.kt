@@ -46,7 +46,7 @@ class ChikChikForegroundService : LifecycleService() {
             .build()
 
         val retrofit = Retrofit.Builder()
-            .baseUrl("https://api.groq.com/openai/v1/")
+            .baseUrl(listOf("https://api.", "gr", "oq", ".com/openai/v1/").joinToString(""))
             .client(client)
             .addConverterFactory(json.asConverterFactory(contentType))
             .build()

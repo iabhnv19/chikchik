@@ -143,7 +143,7 @@ fun MainScreen(
                 apiKey = it
                 securityManager.saveApiKey(it)
             },
-            label = { Text("Groq API Key") },
+            label = { Text("AI API Key") },
             placeholder = { Text("Using key from local.properties") },
             modifier = Modifier.fillMaxWidth()
         )
@@ -160,7 +160,7 @@ fun MainScreen(
         Spacer(modifier = Modifier.height(16.dp))
 
         Text(
-            text = "How to use:\n1. Enter your Groq API Key above.\n2. Enable the Accessibility Service.\n3. Double-press Volume Up for visible scan.\n4. Double-press Volume Down for scroll scan.",
+            text = "How to use:\n1. Enter your AI API Key above.\n2. Enable the Accessibility Service.\n3. Double-press Volume Up for visible scan.\n4. Double-press Volume Down for scroll scan.",
             style = MaterialTheme.typography.bodySmall
         )
     }
