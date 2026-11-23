@@ -144,13 +144,13 @@ app/build/outputs/apk/debug/app-debug.apk
 
 ```mermaid
 flowchart TD
-    A[Physical Volume Buttons] --> B[ChikChikAccessibilityService]
-    B --> C[ChikChikForegroundService]
-    C --> D[SecurityManager & EncryptedSharedPreferences]
-    C --> E[ChatApiService (Retrofit)]
-    E --> F[AI Backend API]
+    A["Physical Volume Buttons"] --> B["ChikChikAccessibilityService"]
+    B --> C["ChikChikForegroundService"]
+    C --> D["SecurityManager & EncryptedSharedPreferences"]
+    C --> E["ChatApiService (Retrofit)"]
+    E --> F["AI Backend API"]
     F --> C
-    C --> G[High-Priority Result Notification]
+    C --> G["High-Priority Result Notification"]
 ```
 
 ## Project structure
