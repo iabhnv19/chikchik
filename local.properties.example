@@ -1,0 +1,5 @@
+## Android SDK Location
+sdk.dir=C\:\\Users\\YourUsername\\AppData\\Local\\Android\\Sdk
+
+## AI API Key
+GROQ_API_KEY=your_api_key_here

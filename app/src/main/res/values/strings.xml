@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">chikchik</string>
+    <string name="accessibility_service_description">This app reads on-screen text to answer your questions via AI, triggered by a double press of Volume Up.</string>
+    <string name="accessibility_service_label">ChikChik AI Assistant</string>
+</resources>
